@@ -246,7 +246,7 @@
       
       const callback = (mutationList, observer) => {
         if (targetPanel.collapsed) {
-            targetPanel.style.height = "11%";
+            targetPanel.style.height = "20%";
         }
         else {
             targetPanel.style.height = "90%";
@@ -261,7 +261,7 @@
 
   <body>
     <div id="viewDiv"></div>
-    <calcite-panel id="infoDiv" class="calcite-mode-dark" collapsible=true collapsed="true" style="width: 90%;">
+    <calcite-panel id="infoDiv" class="calcite-mode-dark" collapsible=true collapsed="true" style="width: 20%;">
       <h3 class="heading" slot="header-content">Earthquakes since 1905</h3>
       <div id="content" style="padding: 5px">
         <calcite-label>
